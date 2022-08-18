@@ -11,11 +11,11 @@ Q(1) = Q(2) = 1
 Q(n) = Q(n-Q(n-1)) + Q(n-Q(n-2))
 ```
 
-$ Plot of Q(n) for n <= 1e7 $
-![plot](/images/Q1,png)
+$Plot of Q(n) for n <= 1e7$
+![plot](/images/Q1.png)
 
-$ Plot of Q(n) - n/2 for n <= 1e7 $
-![plot](images/Q2,png)
+$$Plot of Q(n) - n/2 for n <= 1e7 $$
+![plot](images/Q2.png)
 
 ## Hofstadter-Conway C-sequence
 
@@ -25,10 +25,10 @@ C(n) = C(C(n-1)) + C(n-C(n-1))
 ```
 
 $ Plot of C(n) for n <= 1e7 $
-![plot](images/C1,png)
+![plot](images/C1.png)
 
 $ Plot of C(n) - n/2 for n <= 1e7 $
-![plot](images/C2,png)
+![plot](images/C2.png)
 
 ## Hofstadter Heart Sequence
 ```math
@@ -37,7 +37,7 @@ H(n) = C(n) - Q(n)
 
 
 $ Plot of H(n) for n <= 1e7 $
-![plot](images/H1,png)
+![plot](images/H1.png)
 
 
 ## [A055748](http://oeis.org/A055748)
@@ -48,7 +48,7 @@ B(n) = B(B(n-1)) + B(n - B(n-2) - 1)
 ```
 
 $ Plot of B(n) for n <= 1e7 $
-![plot](images/B1,png)
+![plot](images/B1.png)
 
 TODO:
 $ Plot of B(n)/n for n <= 1e7 $
@@ -57,13 +57,13 @@ $ Plot of B(n)/n for n <= 1e7 $
 
 Plotting points $ (x,H(x), H(x+1)) $ (just because it looks cool)
 
-![plot](images/PCH,png)
+![plot](images/PCH.png)
 
 To view in 3D edit geb.C to draw gr6 and run using root.
 
 ## 3D Poincaré(-ish) Plot of B
 
-![plot](images/PCB,png)
+![plot](images/PCB.png)
 
 
 Plotting points $ (B(x),B(x+1), B(x+2)) $ (just because it looks cool)
