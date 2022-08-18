@@ -20,12 +20,10 @@ Plot of Q(n) - n/2 for n <= 1e7
 
 ## Hofstadter-Conway C-sequence
 
-$$
-C(1) = C(2) = 1 \\
-
-C(n) = C(C(n-1)) + C(n-C(n-1)) \\
-
-$$
+```math
+C(1) = C(2) = 1
+C(n) = C(C(n-1)) + C(n-C(n-1)) 
+```
 
 Plot of C(n) for n <= 1e7
 ![plot](images/C1.png)
@@ -69,6 +67,6 @@ To view in 3D edit geb.C to draw gr6 and run using root.
 ![plot](images/PCB.png)
 
 
-Plotting points $ (B(x),B(x+1), B(x+2)) $ (just because it looks cool)
+Plotting points $$ (B(x),B(x+1), B(x+2)) $$ (just because it looks cool)
 
 To view in 3D edit geb.C to draw gr7 and run using root.
