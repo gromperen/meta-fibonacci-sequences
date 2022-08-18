@@ -21,7 +21,7 @@ Plot of Q(n) - n/2 for n <= 1e7
 ## Hofstadter-Conway C-sequence
 
 $$
-C(1) = C(2) = 1 \
+C(1) = C(2) = 1 \\
 C(n) = C(C(n-1)) + C(n-C(n-1))
 $$
 
