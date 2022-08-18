@@ -12,7 +12,7 @@ Q(n) = Q(n-Q(n-1)) + Q(n-Q(n-2))
 ```
 
 $ Plot of Q(n) for n <= 1e7 $
-![plot](./images/Q1,png)
+![plot](/images/Q1,png)
 
 $ Plot of Q(n) - n/2 for n <= 1e7 $
 ![plot](images/Q2,png)
